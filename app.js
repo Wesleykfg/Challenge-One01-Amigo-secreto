@@ -42,3 +42,18 @@ function listaAmigos() {
 }
 
 // Função gerar nome aleatorio
+function sortearAmigo() {
+    if(listaDeNomesSorteados == ""){
+        adicionarAmigo();
+    } else {
+        var nomeSorteado = Math.floor(Math.random() * quantidadeDeNomes);
+        var resultado = document.getElementById('resultado');
+        resultado.innerHTML = "";
+        var resultadoHTML = document.createElement('li');
+        resultadoHTML.appendChild(document.createTextNode("O amigo sorteado foi: "));
+        resultadoHTML.appendChild(document.createTextNode(listaDeNomesSorteados[nomeSorteado]));
+        resultado.appendChild(resultadoHTML);
+        console.log(nomeSorteado);
+        console.log(listaDeNomesSorteados [nomeSorteado]);
+    }
+}
