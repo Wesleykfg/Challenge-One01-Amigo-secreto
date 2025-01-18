@@ -2,6 +2,7 @@
 // Criando Variaveis
 var listaDeNomesSorteados = []; //também poderia ser let listaDeNomesSorteados = [];
 var quantidadeDeNomes = 0;
+var lista = document.querySelector('ul');
 
 // Criando Funções
 
@@ -32,7 +33,6 @@ function limparCampo() {
 
 // Função de adcionar os valors do array na lista do html e mostrar na pagina
 function listaAmigos() {
-    var lista = document.querySelector('ul');
     lista.innerHTML = "";
     for (var i = 0; i < listaDeNomesSorteados.length; i++) {
         var itemHTML = document.createElement('li');
@@ -41,7 +41,7 @@ function listaAmigos() {
     }
 }
 
-// Função gerar nome aleatorio
+// Função sorteando nome do amigo aleatoriamente
 function sortearAmigo() {
     if(listaDeNomesSorteados == ""){
         adicionarAmigo();
@@ -49,6 +49,7 @@ function sortearAmigo() {
         var nomeSorteado = Math.floor(Math.random() * quantidadeDeNomes);
         var resultado = document.getElementById('resultado');
         resultado.innerHTML = "";
+        lista.innerHTML = "";
         var resultadoHTML = document.createElement('li');
         resultadoHTML.appendChild(document.createTextNode("O amigo sorteado foi: "));
         resultadoHTML.appendChild(document.createTextNode(listaDeNomesSorteados[nomeSorteado]));
