@@ -11,8 +11,8 @@ um nome para ser seu "amigo secreto".
 <table align="center">
     <tr>
         <td><img alt="Contribuidores" src="https://img.shields.io/github/contributors/wesleykfg/jogo-do-numero-secreto-alura?style=for-the-badge"/></td>
-        <td><img alt="Tamanho" src="https://img.shields.io/github/languages/code-size/Wesleykfg/Challenge-One01-Amigo-secreto"/></td>
-        <td><img alt="QuantidadeDeItens" src="https://img.shields.io/github/directory-file-count/Wesleykfg/Challenge-One01-Amigo-secreto"/></td>
+        <td><img alt="Tamanho" src="https://img.shields.io/github/languages/code-size/Wesleykfg/Challenge-One01-Amigo-secreto?style=for-the-badge"/></td>
+        <td><img alt="QuantidadeDeItens" src="https://img.shields.io/github/directory-file-count/Wesleykfg/Challenge-One01-Amigo-secreto?style=for-the-badge"/></td>
         <td><img alt="Linguagens" src="https://img.shields.io/github/languages/count/wesleykfg/jogo-do-numero-secreto-alura?style=for-the-badge"/></td>
     </tr>
 </table>
@@ -25,6 +25,14 @@ um nome para ser seu "amigo secreto".
         <td><img alt="HTML" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white"/></td>
         <td><img alt="CSS" src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"/></td>
         <td><img alt="JS"src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/></td>
+    </tr>
+</table>
+
+<div><h2>Status do Desenvolvimento do Projeto:</h2>
+ 
+ <table align="center">
+    <tr>
+        <td><img alt="VSCode" src="https://img.shields.io/badge/Status%20-%20EM%20DESENVOLVIMENTO%20-%20green?style=for-the-badge"/></td>
     </tr>
 </table>
 
@@ -47,4 +55,19 @@ e o exibirá logo acima do botão de "sortear amigo" apagando os nomes digitados
 
 É importante informar que para sortear um novo nome é necessário pressionar a tecla "F5" do seu teclado! Lembrando também que dessa forma
 o jogo será rezetado e para sortear um novo nome é preciso digitar novamente os nomes desejados.
+</div>
+
+<div><h2>Licença:</h2>
+ 
+ <table align="center">
+    <tr>
+        <td><img alt="VSCode" src="https://img.shields.io/github/license/Wesleykfg/Challenge-One01-Amigo-secreto?style=for-the-badge"/></td>
+    </tr>
+</table>
+
+<div><h2>Conclusão:</h2>
+Esse é apenas o início do projeto, conforme minha habilidade de codar for evoluindo, voltarei e modificarei o codigo para espelhar tal evolução, porém, no momento
+creio que ele foi muito importante para o desenvolvimento iniciante de uma proposta bem simples, mas acertiva em treinar a minha lógica de programação e
+me divertir ao faze-lo.
+Espero que gostem!
 </div>
